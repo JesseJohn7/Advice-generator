@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d1b2a; /* Deep blue background */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    text-align: center;
+    background-color: #112240; /* Card background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    position: relative;
+    max-width: 400px;
+    height: 180px;
+  }
+  
+  .advice-number {
+    color: #4caf50; /* Green text */
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .advice-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .line {
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #4caf50;
+  }
+  
+  .pause-icon {
+    font-size: 1.2rem;
+    color: #4caf50;
+  }
+  
+  
+  .button-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+    position: relative;
+    
+  }
+  
+  .action-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4caf50; /* Green button */
+    box-shadow: 0 0 15px 5px rgba(76, 175, 80, 0.6); /* Glow effect */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .action-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 8px rgba(76, 175, 80, 0.8);
+  }
+  
+.line{
+  background-color: white;
+}
+
+.pause-icon{
+  color: white;
+  font-size: 20px;
+}
